@@ -1,8 +1,8 @@
 # Base Map Optimizer
 
-Map generation and design is extremely important in games, as it can affect the gameflow and different player strategies. I noticed that in most game maps, different teams have opposing bases placed the furthest apart. This allows players to plan their routes, and endorse map exploration/utilization.
+Map generation and design is extremely important in games, as it can affect the gameflow and different player strategies. We noticed that in most game maps, different teams have opposing bases placed the furthest apart. This allows players to plan their routes, and endorse map exploration/utilization.
 
-I developed an algorithm based on BFS traversal and distance encoding, which will provide a structured path that simulates where we would expect a base to be on a map. From a specified starting point, the algorithm finds the distances of every pixel on the map's paths, deeming the base to be at the ***longest shortest path*** from the start. It renders the path on the image to visualize where this base would be.
+We developed an algorithm based on BFS traversal and distance encoding, which will provide a structured path that simulates where we would expect a base to be on a map. From a specified starting point, the algorithm finds the distances of every pixel on the map's paths, deeming the base to be at the ***longest shortest path*** from the start. It renders the path on the image to visualize where this base would be.
 
 This project was meant to practice my C++ skills and knowledge of algorithms. 
 
